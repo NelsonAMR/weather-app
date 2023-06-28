@@ -16,12 +16,12 @@
     <!-- <div
       class="bg-[url('/assets/Cloud-background.png')] w-full h-full bg-no-repeat bg-cover bg-center"
     ></div> -->
-    <div>
-      <div class="w-full h-fit">
+    <div class="mt-2 h-full">
+      <div class="w-full h-full">
         <img
           src="/assets/Cloud-background.png"
           alt="cloud background"
-          class="w-full h-full"
+          class="h- object-cover"
         />
       </div>
     </div>

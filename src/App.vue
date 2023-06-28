@@ -1,8 +1,12 @@
 <script setup lang="ts">
 import Home from "./components/Home.vue";
+import Content from "./components/Content.vue";
 console.log("Hola Mundo");
 </script>
 
 <template>
-  <Home />
+  <div class="flex">
+    <Home />
+    <Content />
+  </div>
 </template>
