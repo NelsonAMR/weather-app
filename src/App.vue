@@ -1,13 +1,8 @@
 <script setup lang="ts">
+import Home from "./components/Home.vue";
 console.log("Hola Mundo");
 </script>
 
 <template>
-  <h1>Hola</h1>
+  <Home />
 </template>
-
-<style scoped>
-h1 {
-  background-color: blue;
-}
-</style>
