@@ -13,10 +13,13 @@
       </button>
     </div>
 
-    <div
-      class="bg-[url('/assets/Cloud-background.png')] w-full h-full bg-no-repeat bg-top opacity-25"
-    >
-      <h1>Hola</h1>
+    <div class="relative">
+      <img
+        src="/assets/Cloud-background.png"
+        alt="Nubes"
+        class="object-cover min-w-full min-h-full scale-150 mt-10 opacity-10"
+      />
+      <h1 class="text-5xl absolute top-1/2 left-1/2 -translate-x-1/2">Hola</h1>
     </div>
   </main>
 </template>
