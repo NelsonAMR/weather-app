@@ -13,17 +13,10 @@
       </button>
     </div>
 
-    <!-- <div
-      class="bg-[url('/assets/Cloud-background.png')] w-full h-full bg-no-repeat bg-cover bg-center"
-    ></div> -->
-    <div class="mt-2 h-full">
-      <div class="w-full h-full">
-        <img
-          src="/assets/Cloud-background.png"
-          alt="cloud background"
-          class="h- object-cover"
-        />
-      </div>
+    <div
+      class="bg-[url('/assets/Cloud-background.png')] w-full h-full bg-no-repeat bg-top opacity-25"
+    >
+      <h1>Hola</h1>
     </div>
   </main>
 </template>
